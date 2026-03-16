@@ -1,5 +1,5 @@
 package Tasks;
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class Product {  
         //! Data Members
@@ -40,7 +40,6 @@ public class Product {
     //! Display Data
     public void displayData(){
         
-        System.out.println(productId + " " + productName + " " + 
-        brand + " " + price + " " + quantity);
+        System.out.println(productId + " " + productName + " " + brand + " " + price + " " + quantity);
     }
 }
