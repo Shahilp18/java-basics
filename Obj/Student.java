@@ -35,7 +35,34 @@ public class Student{
         System.out.println("== Student :: Exit Parameterised Constructor===" + this);
     }
 
-    
+    //! Parameterised Constructor(3 Arguments)
+    public Student(int r, String n, int s){
+        System.out.println("== Student :: Start 3 Parameterised Constructor===" + this);
+
+        System.out.println("Before Constructor Initialization : "+rno + " " + name + " " + std);
+
+        rno = r;
+        name = n;
+        std = s;
+
+        System.out.println("After Constructor Initialization : "+rno + " " + name + " " + std);
+        System.out.println("== Student :: Exit 3 Parameterised Constructor===" + this);
+    }
+
+    //! Copy Constructor
+    public Student(Student s){
+        System.out.println("== Student :: Start Copy Constructor===" + this);
+
+        System.out.println("Before Constructor Initialization : "+rno + " " + name + " " + std + " " + marks);
+
+        rno = s.rno;
+        name = s.name;
+        std = s.std;
+        marks = s.marks;
+        System.out.println("After Constructor Initialization : "+rno + " " + name + " " + std + " " + marks);
+        System.out.println("== Student :: Exit Copy Constructor===" + this);
+    }
+
 
     //! Member Function(Optional)
     public void scanData(){
