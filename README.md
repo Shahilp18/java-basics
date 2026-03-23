@@ -6,4 +6,4 @@ I am documenting my journey of learning Java from basics to advanced concepts an
 
 LinkedIn 👉 https://www.linkedin.com/in/shahilptl18/
 
-Twitter (X) 👉 https://x.com/Shahil1806
+Twitter (X) 👉 https://x.com/Shahilp18
